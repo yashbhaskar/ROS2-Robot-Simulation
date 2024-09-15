@@ -24,3 +24,10 @@ Run the following command in your ROS 2 workspace to build the package:
 
 ```bash
 yash@ubuntu22:~/ros_ws$ colcon build
+
+### 2. Source the Setup
+
+Source the setup file in all terminals before launching any nodes.
+
+```bash
+yash@ubuntu22:~/ros_ws$ source install/setup.bash
